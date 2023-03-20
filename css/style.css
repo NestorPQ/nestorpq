@@ -1,3 +1,32 @@
-.titulo {
-    color: blue;
+* {
+    text-align: center ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:rgb(214, 214, 226) ;
 }
+
+.titulo {
+    color: rgb(96, 96, 194);
+    font-weight: 3rem;
+}
+/* 
+.container {
+    margin: 2 center;
+
+} */
+
+.imagen {
+    max-width: 500px;
+    border-radius: 10%;
+}
+
+.descripcion {
+    text-align: center;
+}
+
+.line {
+    border-top: 1px solid black;
+    height: 2px;
+    max-width: 200px;
+    padding: 0;
+    margin: 20px auto 0 auto;
+  }
